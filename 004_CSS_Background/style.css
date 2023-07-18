@@ -1,0 +1,17 @@
+body {
+  background: url(bg.jpg);
+  background-attachment: scroll;
+}
+div {
+  background-color: rgba(240, 128, 128, 0.7);
+  background-image: url(css.png);
+  background-size: 150px 150px;
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+
+  background-position: center right;
+
+  /* Shorthand */
+  background: #f78fb3 url(css.png) no-repeat center;
+}
