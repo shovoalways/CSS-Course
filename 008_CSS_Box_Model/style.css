@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* html,
+body {
+  height: 100%;
+} */
+html {
+  height: 50%;
+}
+body {
+  height: inherit;
+}
+/* .parent {
+  background: #574b90;
+  color: #fff;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid tomato;
+  float: left;
+} */
+.parent {
+  background: #574b90;
+  color: #fff;
+  width: 24%;
+  margin: 1%;
+  padding: 2%;
+  border: 0.5em solid tomato;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+}

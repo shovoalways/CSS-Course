@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #ff8922;
+  /* background: blue; */
+  text-align: left;
+}
+p {
+  margin-bottom: 20px;
+}
+/* Text Align Last */
+.one {
+  text-align: center;
+  text-align-last: left;
+}
+/* Text Align */
+.two {
+  text-align: center;
+}
+/* Direction */
+.three {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.baseline {
+  vertical-align: baseline;
+}
+.text-top {
+  vertical-align: text-top;
+}
+.text-bottom {
+  vertical-align: text-bottom;
+}
+.sub {
+  vertical-align: sub;
+}
+.supper {
+  vertical-align: super;
+}
+a {
+  text-decoration: overline underline;
+}
+h2 {
+  text-transform: uppercase;
+  /* letter-spacing: -10px; */
+  text-shadow: 0px 5px 5px #ddd;
+}
+p {
+  text-indent: 100px;
+  font-size: 15px;
+  /* line-height: 18px; */
+  white-space: break-spaces;
+  word-spacing: 5px;
+}
