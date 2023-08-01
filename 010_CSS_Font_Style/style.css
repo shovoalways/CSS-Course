@@ -1,0 +1,48 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1.sans {
+  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
+}
+h1.serif {
+  font-family: serif;
+  font-family: serif;
+}
+h1.mono {
+  font-family: monospace;
+  font-family: 'Monaco', monospace;
+}
+h1.cursive {
+  font-family: cursive;
+  font-family: 'Lucida Handwriting', cursive;
+}
+h1.fantasy {
+  font-family: fantasy;
+  font-family: 'papyrus', fantasy;
+  /* font-family: 'Pacifico', cursive; 
+}
+h1.bungee {
+  font-family: 'Bungee Spice', cursive;
+} */
+/* h1 {
+  font-style: oblique 10deg;
+} */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  /* font-style: italic; */
+  font-variant: small-caps;
+}
+h2 {
+  text-transform: uppercase;
+}
+h2 span {
+  font-size: 130%;
+}

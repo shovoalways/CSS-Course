@@ -1,0 +1,27 @@
+/* ul {
+  list-style-type: disc;
+  list-style-type: square;
+  list-style-type: circle;
+  list-style-type: decimal;
+  list-style-type: decimal-leading-zero;
+  list-style-type: georgian;
+  list-style-type: none;
+
+  list-style-image: url(hand.png);
+
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  margin-left: 25px;
+} */
+ul {
+  background: tomato;
+  padding: 25px;
+  list-style-position: inside;
+}
+li {
+  background: violet;
+  padding: 5px;
+  border-bottom: 1px solid tomato;
+}
