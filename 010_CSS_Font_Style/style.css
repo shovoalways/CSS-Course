@@ -1,48 +1,55 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
-/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-h1.sans {
-  font-family: sans-serif;
-  font-family: 'Helvetica', sans-serif;
-}
-h1.serif {
-  font-family: serif;
-  font-family: serif;
-}
-h1.mono {
-  font-family: monospace;
-  font-family: 'Monaco', monospace;
-}
-h1.cursive {
-  font-family: cursive;
-  font-family: 'Lucida Handwriting', cursive;
-}
-h1.fantasy {
-  font-family: fantasy;
-  font-family: 'papyrus', fantasy;
-  /* font-family: 'Pacifico', cursive; 
-}
-h1.bungee {
-  font-family: 'Bungee Spice', cursive;
-} */
-/* h1 {
-  font-style: oblique 10deg;
-} */
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 65px;
-  font-weight: 900;
-  /* font-style: italic; */
-  font-variant: small-caps;
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+  /* Serif Fonts */
+  font-family: 'Times New Roman';
+  font-family: Georgia;
+
+  /* Sans Serif Font */
+  font-family: 'Arial', sans-serif;
+  font-family: Verdana;
+
+  /* Monospace Font */
+  font-family: 'Courier New';
+
+  /* Fantacy Font */
+  font-family: papyrus;
+
+  /* Cursive Font */
+  font-family: Brush Script MT;
 }
 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 65px;
+  font-size: 4.0625em;
+  /* font-size: 100%; */
+
+  font-style: oblique;
+  font-style: italic;
+  font-style: normal;
+
+  font-weight: 100;
+  font-weight: 900;
+}
+h3 {
+  font-family: 'Bungee Spice', cursive;
+  font-size: 50px;
+  font-style: italic;
+}
+h4 {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+h5 {
+  font-size: 50px;
   text-transform: uppercase;
 }
-h2 span {
+h5 span {
   font-size: 130%;
 }
