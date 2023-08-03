@@ -1,0 +1,22 @@
+h1,
+h3,
+p,
+span,
+a {
+  background: teal;
+}
+h1 {
+  display: inline-block;
+}
+span {
+  display: block;
+}
+h3 {
+  display: none;
+}
+a.btn {
+  background: violet;
+  color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+}
