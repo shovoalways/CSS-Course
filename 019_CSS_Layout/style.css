@@ -1,0 +1,58 @@
+.div {
+  background: #2d3436;
+  color: cadetblue;
+  padding: 20px 1%;
+  width: 30%;
+  margin-bottom: 20px;
+  /* overflow: hidden; */
+  float: left;
+  margin-left: 5px;
+}
+img {
+  float: inherit;
+  display: block;
+  margin: 0 auto;
+}
+.parent {
+  border: 5px solid red;
+  overflow: auto;
+  /* overflow: hidden; */
+}
+#nav {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background: #192a56;
+}
+#nav li {
+  float: left;
+}
+#nav li a {
+  display: inline-block;
+  padding: 12px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+#nav li a:hover {
+  background: #c23616;
+}
+
+#display {
+  background: #44bd32;
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+}
+#display li {
+  display: inline-block;
+}
+#display li a {
+  display: inline-block;
+  padding: 12px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+#display li a:hover {
+  background: #c23616;
+}

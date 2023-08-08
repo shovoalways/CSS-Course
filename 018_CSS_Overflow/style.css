@@ -1,0 +1,13 @@
+div {
+  background: #2d3436;
+  color: cadetblue;
+  padding: 20px 5%;
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+p {
+  width: 600px;
+}

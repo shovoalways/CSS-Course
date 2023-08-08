@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+div {
+  background: aqua;
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  /* margin-left: 20px;
+  margin-top: 20px; */
+}
+.main {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.sec {
+  background: blueviolet;
+  width: 100px;
+  height: 100px;
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+}
+.child {
+  background: plum;
+  width: 50px;
+  height: 50px;
+  /* left: auto; */
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 4;
+}
+.child2 {
+  background: peru;
+  width: 100px;
+  height: 100px;
+  /* left: auto; */
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  z-index: 3;
+}
+.child3 {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  /* left: auto; */
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  z-index: 2;
+}
