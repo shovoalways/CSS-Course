@@ -1,0 +1,38 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+a[target] {
+  text-decoration: none;
+  color: red;
+}
+a[target='_self'] {
+  color: plum;
+}
+a[title~='Pro'] {
+  color: aqua;
+  font-weight: bold;
+  font-size: 35px;
+}
+a[title~='BD'] {
+  color: purple;
+  font-weight: normal;
+  font-size: 25px;
+}
+div[class|='child'] {
+  width: 300px;
+  height: 200px;
+  background: #8c7ae6;
+}
+div[class^='child'] {
+  width: 300px;
+  height: 200px;
+  background: #e1b12c;
+  margin-bottom: 5px;
+}
+div[class$='ial'] {
+  background: #8c7ae6;
+}
+div[class*='erv'] {
+  background: #e84118;
+}

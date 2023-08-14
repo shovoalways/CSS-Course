@@ -1,0 +1,45 @@
+a:hover {
+  color: red;
+}
+a:visited {
+  color: purple;
+}
+/* li:first-child {
+  color: red;
+}
+li:last-child {
+  color: red;
+} */
+li:nth-child(2n + 2) {
+  color: blue;
+}
+
+body {
+  background: aquamarine;
+  background-image: url(bg2.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body::before {
+  content: 'Element';
+  background-image: url(bg2.jpg);
+  background-size: 100px 300px;
+}
+body::after {
+  content: 'Element';
+  background-image: url(bg2.jpg);
+  background-size: 100px 300px;
+}
+p::first-line {
+  color: brown;
+  font-weight: bold;
+  font-size: 35px;
+}
+p::first-letter {
+  font-size: 65px;
+}
+p::selection {
+  background: #ee5a24;
+  color: #fff;
+}
