@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+/* #test {
+  background: #ddd;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+} */
+#test {
+  background: #ddd;
+  /* width: 100%;
+  max-width: 500px; */
+  /* width: max(300px, 60%); */
+  width: min(50%, 300px);
+  margin: 0 auto;
+}

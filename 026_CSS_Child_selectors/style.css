@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.parant {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.child {
+  background: #b33939;
+  width: 50px;
+  padding-top: 10px;
+  height: 38px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.child p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* nth Child  */
+/*
+.child:first-child {
+  background: #474787;
+}
+.child:last-child {
+  background: #474787;
+}
+.child:nth-child(4) {
+  background: #cc8e35;
+}
+.child:nth-last-child(3) {
+  background: #cc8e35;
+}
+.child:nth-child(odd) {
+  background: #474787;
+}
+.child:nth-child(even) {
+  background: #474787;
+}
+.child:nth-child(4n - 1) {
+  background: #474787;
+}
+*/
+.child:nth-child(3n) {
+  background: #474787;
+}
+
+/* From Styling*/
+form {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+input[type='text'] {
+  border: 1px solid #ddd;
+  padding: 15px 25px;
+  color: #000;
+  font-size: 14px;
+  border-radius: 5px;
+  float: left;
+}
+input[type='button'] {
+  background: #227093;
+  border: 1px solid #227093;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+}
+input:not(:placeholder-shown) + input[type='button'] {
+  display: block;
+}
