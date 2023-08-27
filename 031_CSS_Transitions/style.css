@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.one {
+  background: #8c7ae6;
+  border: 5px solid yellow;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+  /* transition: idth 0.5s, height 3s, border 5s; */
+  transition: 4s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+.one:hover {
+  border: 15px solid salmon;
+  width: 400px;
+  height: 350px;
+}
+
+a {
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+
+  transition: 1s;
+}
+a:hover {
+  color: blue;
+}

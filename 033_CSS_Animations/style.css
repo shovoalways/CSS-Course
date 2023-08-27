@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.one {
+  background: #8c7ae6;
+  border: 5px solid green;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+  animation-name: learning;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+/* @keyframes learning {
+  from {
+    background: blue;
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    background: red;
+    width: 400px;
+    height: 400px;
+  }
+} */
+@keyframes learning {
+  0% {
+    background: blue;
+    width: 100px;
+    height: 100px;
+  }
+  25% {
+    background: aqua;
+    width: 200px;
+    height: 200px;
+  }
+  50% {
+    background: red;
+    width: 400px;
+    height: 400px;
+  }
+  75% {
+    background: violet;
+    width: 100px;
+    height: 100px;
+  }
+  100% {
+    background: green;
+    width: 100px;
+    height: 100px;
+  }
+}
+.parent {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.two {
+  background: #f5cd79;
+  border: 3px solid #786fa6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  position: absolute;
+  animation-name: rounds;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes rounds {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  20% {
+    left: 300px;
+    top: 0;
+  }
+  40% {
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    left: 0;
+    top: 300px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}

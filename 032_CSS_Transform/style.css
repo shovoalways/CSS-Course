@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.one {
+  background: #8c7ae6;
+  border: 5px solid green;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+.one:hover {
+  /* transform: translate(25px, 20px); */
+  /* transform: rotate(-180deg); */
+  /* transform: scale(2, 4); */
+  /* transform: skew(-25deg); */
+  transform: matrix(1, 0.5, 3, 2, 0.1, 1);
+  /* transform: matrix(scaleX(), skewX(), skewY(), scaleY(), translateX(), translateY()); */
+}

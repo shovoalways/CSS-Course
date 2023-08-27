@@ -3,15 +3,13 @@ body {
   margin: 0;
 }
 /* #test {
-  background: #ddd;
+  background: aqua;
   width: calc(100% - 200px);
   margin: 0 auto;
 } */
 #test {
-  background: #ddd;
-  /* width: 100%;
-  max-width: 500px; */
-  /* width: max(300px, 60%); */
-  width: min(50%, 300px);
+  background: aqua;
+  width: max(70%, 700px);
+  width: min(70%, 700px);
   margin: 0 auto;
 }

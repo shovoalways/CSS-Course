@@ -2,15 +2,18 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-#test p {
-  color: blueviolet;
+#test p.para {
+  color: blueviolet !important;
+}
+#test p.para {
+  color: aqua;
 }
 .child p.para {
-  color: green !important;
+  color: blue;
 }
-p {
+p.para {
   color: red;
 }
 p {
-  color: blue !important;
+  color: green;
 }
