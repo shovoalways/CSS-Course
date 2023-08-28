@@ -22,5 +22,5 @@ body {
   /* transform: scale(2, 4); */
   /* transform: skew(-25deg); */
   transform: matrix(1, 0.5, 3, 2, 0.1, 1);
-  /* transform: matrix(scaleX(), skewX(), skewY(), scaleY(), translateX(), translateY()); */
+  /* transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()); */
 }
