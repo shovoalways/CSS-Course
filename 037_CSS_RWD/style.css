@@ -1,0 +1,67 @@
+:root {
+  --primary: #fdcb6e;
+  --sec: #dfe6e9;
+  --darkColor: #00b894;
+  --whiteColor: #fff;
+  --defaultWidth: 90%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: var(--sec);
+}
+.main_area {
+  width: var(--defaultWidth);
+  margin: 20px auto;
+  background: var(--primary);
+  padding: 10px;
+}
+.main {
+}
+.child {
+  background: var(--darkColor);
+  padding: 10px;
+  color: var(--whiteColor);
+}
+.child a {
+  background: var(--primary);
+  color: var(--darkColor);
+  display: inline-block;
+  transition: 0.5s;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.child a:hover {
+  background: var(--sec);
+  color: var(--primary);
+}
+@media all and (min-width: 300px) and (max-width: 500px) {
+  body .child {
+    color: red;
+    width: 300px;
+  }
+}
+@media all and (orientation: landscape) and (max-width: 500px) {
+  body .child {
+    background: blue;
+    color: red;
+    width: 300px;
+  }
+}
+@media all and (orientation: portrait) and (max-width: 400px) {
+  body .child {
+    background: green;
+    color: red;
+    width: 300px;
+  }
+}
+/* body .child {
+  color: blue;
+  width: 300px;
+} */
