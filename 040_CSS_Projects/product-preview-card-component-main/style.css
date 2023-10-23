@@ -1,0 +1,136 @@
+:root {
+  --primaryFont: 'Montserrat', sans-serif;
+  --secFont: 'Fraunces', serif;
+
+  --darkCyan: hsl(158, 36%, 37%);
+  --creamColor: hsl(30, 38%, 92%);
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --whiteColor: hsl(0, 0%, 100%);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: var(--primaryFont);
+  font-weight: 400;
+  font-size: 14px;
+  background: var(--creamColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secFont);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+p {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  width: 600px;
+  display: flex;
+}
+.card-img {
+  flex-basis: 50%;
+}
+.card-img img.desktop {
+  border-radius: 10px 0 0 10px;
+  display: block;
+}
+.card-img img.mobile {
+  border-radius: 10px 10px 0 0;
+  display: none;
+}
+.card-body {
+  flex-basis: 50%;
+  background: var(--whiteColor);
+  border-radius: 0 10px 10px 0;
+  padding: 30px;
+}
+.card-body h2 {
+  color: var(--veryDarkBlue);
+  font-size: 32px;
+}
+.card-body h6 {
+  color: var(--darkGrayishBlue);
+  font-family: var(--primaryFont);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.card-body p {
+  font-size: 14px;
+  color: var(--darkGrayishBlue);
+  line-height: 1.5em;
+}
+.card-body p.price {
+  font-family: var(--secFont);
+  color: var(--darkCyan);
+  font-size: 32px;
+}
+.card-body p.price span {
+  font-family: var(--primaryFont);
+  color: var(--darkGrayishBlue);
+  font-size: 14px;
+  text-decoration: line-through;
+  position: relative;
+  top: -5px;
+}
+.card-body button {
+  background: var(--darkCyan);
+  border: 0;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+.card-body button img {
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  top: 3px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+  .card {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .card-img img.desktop {
+    display: none;
+  }
+  .card-img img.mobile {
+    display: block;
+  }
+  .card-body {
+    border-radius: 0 0 10px 10px;
+  }
+}
