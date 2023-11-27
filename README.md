@@ -16,7 +16,6 @@ You need following skills to start with
 - Basic as well as advanced CSS features
 - Understand the concepts and theory behind CSS and certain CSS features
 - Flexbox, grid, animations, transitions, fonts, media queries and much more
-- How to update plugin on WordPress.org
 
 
 
